@@ -22,7 +22,7 @@ First, build and install beta release of Metamask extension:
 
 #### Demo DAPP
 
-##### Running Filsnap demo locally
+##### Running Aptosnap demo locally
 
 Start our demo locally by running:
 
