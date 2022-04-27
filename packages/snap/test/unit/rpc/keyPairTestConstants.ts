@@ -1,0 +1,7 @@
+export const testSeedPhrase = 'label jaguar disagree disease upgrade injury actor indicate rocket subject hazard slab'
+export const testBip44Entropy = 'Owl8ESiPOy6Ti2OmB3pS3VOAOhXwU5AF4yedFmOF2iZY3SI5Po+DMB13OKZ8LdTHTWwDNzsAfzb58tJ2WkyYpA=='
+export const testAppKey = "ed2f664e65b5ef0dd907ae15a2788cfc98e41970bc9fcb46f5900f6919862075e721f37212304a56505dab99b001cc8907ef093b7c5016a46b50c01cc3ec1cac";
+export const testAddress = "f1ekszptik2ognlx24xz7zubejtw3cyidv4t4ibyy";
+export const testPublicKey = "047a3b8b79d3829af3566252f68f500f22179b2ebe03805038cab0126c42d8dd15c1e1bf9aad1950085f8acdd5b106eb0b58040f1cd9e0ee2a3c23d84521649f91";
+export const testPrivateKey = "888a4764f36384aef299c99f81a64e2d5d69e024979c8cb148bda84628d31035"
+export const testPrivateKeyBase64 = "iIpHZPNjhK7ymcmfgaZOLV1p4CSXnIyxSL2oRijTEDU="

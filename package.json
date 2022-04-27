@@ -1,0 +1,34 @@
+{
+  "name": "root",
+  "private": true,
+  "author": "ChainSafe <info@chainsafe.io>",
+  "license": "(Apache-2.0 AND MIT)",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build:snap": "lerna run build --scope @pontem/aptosnap",
+    "build:adapter": "lerna run build --scope @pontem/aptosnap-adapter",
+    "start:snap": "lerna run serve --scope @pontem/aptosnap",
+    "start:example:local": "REACT_APP_SNAP=local lerna run start --scope example",
+    "start:example:ipfs": "REACT_APP_SNAP=ipfs lerna run start --scope example",
+    "predemo": "yarn run build:snap && yarn run build:adapter",
+    "build": "yarn run build:ipfs",
+    "build:local": "REACT_APP_SNAP=local lerna run build",
+    "build:ipfs": "REACT_APP_SNAP=ipfs lerna run build",
+    "test": "lerna run test",
+    "lint": "lerna run lint",
+    "lint:style:fix": "lerna run lint:style:fix",
+    "demo": "yarn run demo:local",
+    "demo:local": "concurrently  --raw --kill-others \"yarn run start:snap\" \"yarn run start:example:local\"",
+    "demo:ipfs": "concurrently  --raw --kill-others \"yarn run start:snap\" \"yarn run start:example:ipfs\""
+  },
+  "devDependencies": {
+    "lerna": "^3.20.2",
+    "@types/node": "^12.12.35",
+    "@typescript-eslint/eslint-plugin": "^4.1.1",
+    "@typescript-eslint/parser": "^4.1.1",
+    "eslint": "^7.11.0",
+    "typescript": "4.3.5"
+  }
+}

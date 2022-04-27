@@ -1,0 +1,47 @@
+import {SnapConfig} from "@pontem/aptosnap-types";
+
+export const filecoinMainnetConfiguration: SnapConfig = {
+  derivationPath: "m/44'/461'/0'/0/0",
+  network: "f",
+  rpc: {
+    token: "",
+    url: "https://api.node.glif.io",
+  },
+  unit: {
+    decimals: 6,
+    image: `https://cryptologos.cc/logos/filecoin-fil-logo.svg?v=007`,
+    symbol: "FIL"
+  }
+};
+
+// devnet configuration replaces testnet for now
+export const filecoinTestnetConfiguration: SnapConfig = {
+  derivationPath: "m/44'/1'/0'/0/0",
+  network: "t",
+  rpc: {
+    token: "",
+    url: `https://calibration.node.glif.io`
+  },
+  unit: {
+    decimals: 6,
+    image: `https://cryptologos.cc/logos/filecoin-fil-logo.svg?v=007`,
+    symbol: "FIL",
+    // custom view url ?
+  }
+};
+
+export const aptosDevnetConfiguration: SnapConfig = {
+  derivationPath: "m/44'/1'/0'/0/0",
+  network: 'aptos',
+  rpc: {
+    token: '',
+    url: 'https://fullnode.devnet.aptoslabs.com'
+  },
+  unit: {
+    decimals: 6,
+    image: `https://cryptologos.cc/logos/filecoin-fil-logo.svg?v=007`,
+    symbol: "APTOS",
+  }
+};
+
+export const defaultConfiguration: SnapConfig = aptosDevnetConfiguration;
