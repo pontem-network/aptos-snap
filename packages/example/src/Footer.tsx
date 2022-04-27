@@ -10,13 +10,13 @@ function Footer() {
         <Container style={{position: "fixed", left: 0, bottom: 0, maxWidth: "100%", textAlign: "center"}}>
             <Grid style={{}} direction="row" alignItems="flex-end" justify="center" container spacing={3}>
                 <Box m="2rem" height="100%">
-                    <a style={{textDecoration: "unset"}} href={"https://github.com/pontem/aptosnap"}>
+                    <a style={{textDecoration: "unset"}} href={"https://github.com/pontem-network/aptos-snap"}>
                         <GitHubIcon fontSize={"large"} />
                         <Typography style={{textDecoration: "unset"}}>Repo</Typography>
                     </a>
                 </Box>
                 <Box m="2rem" height="100%">
-                    <a style={{textDecoration: "unset"}} href={"https://github.com/pontem/aptosnap/wiki"}>
+                    <a style={{textDecoration: "unset"}} href={"https://github.com/pontem-network/aptos-snap/wiki"}>
                         <DescriptionIcon fontSize={"large"} />
                         <Typography>Docs</Typography>
                     </a>

@@ -1,17 +1,17 @@
-# FilSnap adapter
-![](https://github.com/pontem/aptosnap/workflows/ci/badge.svg)
+# Aptosnap adapter
+![](https://github.com/pontem-network/aptos-snap/workflows/ci/badge.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ![](https://img.shields.io/badge/yarn-%3E%3D1.17.0-orange.svg?style=flat-square)
 ![Discord](https://img.shields.io/discord/608204864593461248?color=blue&label=Discord&logo=discord)
 
-FilSnap adapter is used to install Filecoin snap and expose API toward snap.
+Aptosnap adapter is used to install Aptos snap and expose API toward snap.
 
-For more details on Filecoin snap itself see [snap repo](https://github.com/pontem/aptosnap) or read full [Filecoin snap documentation](https://github.com/pontem/aptosnap/wiki).
+For more details on Aptos snap itself see [snap repo](https://github.com/pontem-network/aptos-snap) or read full [Aptosnap snap documentation](https://github.com/pontem-network/aptos-snap/wiki).
 
 ## Usage
 
-Adapter has only exposed function for installing Filecoin snap.
+Adapter has only exposed function for installing Aptos snap.
 
 ```typescript
 async function enableFilecoinSnap(
@@ -44,7 +44,7 @@ export interface UnitConfiguration {
 ```
 
 After snap installation, this function returns `MetamaskFilecoinSnap` object that can be used to retrieve snap API. 
-An example of initializing Filecoin snap and invoking snap API is shown below.
+An example of initializing Aptos snap and invoking snap API is shown below.
 
 ```typescript
 // install snap and fetch API

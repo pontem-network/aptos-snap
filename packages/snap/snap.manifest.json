@@ -4,7 +4,7 @@
   "description": "The Filecoin snap.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Chainsafe/filsnap.git"
+    "url": "https://github.com/pontem-network/aptos-snap.git"
   },
   "source": {
     "shasum": "3/fxkbtgp78k28CF30rBKtIAv3L8DVpn2eKIM37rsN4=",
