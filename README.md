@@ -6,8 +6,6 @@
 
 Metamask Snap to enable Metamask users interaction with Aptos dapps based on [Filesnap repository](https://github.com/Chainsafe/filsnap).
 
-**For detailed documentation and integration instructions see [wiki](https://github.com/pontem-network/aptos-snap/wiki).**
-
 ### Testing Aptosnap
 
 #### Metamask
